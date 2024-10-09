@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+.logo-container {
+    display: flex;
+    justify-content: center; /* Centraliza a logo horizontalmente */
+    position: absolute; /* Permite posicionar no topo */
+    top: 20px; /* Ajusta a distância do topo */
+    width: 100%; /* Garante que ocupa toda a largura da tela */
+  }
+  
+  .logo {
+    max-width: 120px; /* Ajusta o tamanho máximo da logo */
+    height: auto; /* Mantém a proporção */
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Alinha a imagem mais ao topo */
+    height: 100vh; /* Altura total da tela */
+  }
+  
+  .zoro-image {
+    max-width: 100%;
+    height: auto;
+    width: 300px;
+    display: block;
+    margin: -50px auto 0 auto; /* Ajuste do espaço superior da imagem */
+  }
+
+header {
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: rgba(108, 108, 108, 0.842);
+    padding: 50px;
+    margin-left: 20px;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    height: 80vh; /* Mantém a altura da seção */
+}
+
+.image-container {
+  text-align: center;
+  width: 100%;
+}
+
+.zoro-image {
+    max-width: 100%;
+    width:1150px;
+    height: auto;
+    display: block;
+    margin: -220px auto 0 auto;
+}
+
+.content {
+    max-width: 65%;
+    margin-left: 50px;
+}
+
+h1 {
+    font-size: 4rem;
+    color: white;
+    font-weight: 700;
+    text-align: right;
+    margin: -500px auto 0 auto;
+    letter-spacing: 35px;
+
+}
+
+h2 {
+    font-size: 8rem;
+    color: #355934; /* Verde escuro */
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    line-height: 1.5;
+    color: #ccc;
+}
+
+.button a {
+    background-color: #555;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.actions .media a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+footer {
+    padding: 20px;
+    background-color: #111;
+    position: relative;
+}
+
+.socials {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.socials a {
+    color: white;
+    text-decoration: none;
+}
+
+.socials .icons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.icons img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
